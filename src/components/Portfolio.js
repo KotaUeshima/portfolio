@@ -18,22 +18,22 @@ function Portfolio() {
     {
       id: 3,
       src: coming_soon,
-      codeLink: "",
+      codeLink: "https://github.com/KotaUeshima/College_marketplace_frontend",
     },
     {
       id: 4,
       src: coming_soon,
-      codeLink: "",
+      codeLink: "https://github.com/KotaUeshima/College_marketplace_frontend",
     },
     {
       id: 5,
       src: coming_soon,
-      codeLink: "",
+      codeLink: "https://github.com/KotaUeshima/College_marketplace_frontend",
     },
     {
       id: 6,
       src: coming_soon,
-      codeLink: "",
+      codeLink: "https://github.com/KotaUeshima/College_marketplace_frontend",
     },
   ];
   return (
@@ -59,7 +59,7 @@ function Portfolio() {
             >
               <img src={src} alt="" />
               <div className="flex items-center justify-center">
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="https://github.com/KotaUeshima/College_marketplace_frontend">
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                     Demo
                   </button>
