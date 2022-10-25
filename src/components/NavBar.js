@@ -11,7 +11,12 @@ function NavBar() {
       <div className="text-3xl font-japanese ml-4">
         <Typewriter
           onInit={(typewriter) => {
-            typewriter.typeString("上嶋コウタ").start();
+            typewriter
+              .typeString("Kota Ueshima")
+              .pause(200)
+              .deleteAll()
+              .typeString("上嶋コウタ")
+              .start();
           }}
         />
       </div>

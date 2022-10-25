@@ -5,6 +5,9 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import rails from "../assets/pngwing.com.png";
+import java from "../assets/java.png";
+import python from "../assets/python.png";
 
 function Skills() {
   const techs = [
@@ -32,17 +35,36 @@ function Skills() {
       title: "React",
       style: "shadow-blue-600",
     },
+
     {
       id: 5,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 6,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 6,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
+      id: 7,
+      src: rails,
+      title: "Ruby on Rails",
+      style: "shadow-red-500",
+    },
+    {
+      id: 8,
+      src: java,
+      title: "Java",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 9,
+      src: python,
+      title: "Python",
+      style: "shadow-yellow-400",
     },
   ];
   return (

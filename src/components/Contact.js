@@ -16,7 +16,7 @@ function Contact() {
           </p>
         </div>
 
-        <div className=" flex justify-center items-center">
+        <div className="flex justify-center items-center">
           <form
             action="https://getform.io/f/dfe9a9e9-6b9c-433a-9867-96d178be9e94"
             method="POST"
