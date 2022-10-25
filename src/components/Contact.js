@@ -2,13 +2,18 @@ import React from "react";
 
 function Contact() {
   return (
-    <div name="contact" className="w-full h-screen bg-white p-4 text-black">
+    <div
+      name="contact"
+      className="py-20 w-full min-h-screen bg-white p-4 text-black"
+    >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8 text-center">
           <p className="text-4xl font-extrabold tracking-widest inline border-b-4 border-pink-800">
             CONTACT
           </p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          <p className="py-6 text-gray-500">
+            Submit the form below to get in touch with me
+          </p>
         </div>
 
         <div className=" flex justify-center items-center">

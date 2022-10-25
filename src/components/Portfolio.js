@@ -36,7 +36,7 @@ function Portfolio() {
   return (
     <div
       name="portfolio"
-      className="bg-white w-full h-screen text-black md:h-screen"
+      className="py-20 bg-whitew-full min-h-screen text-black"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-center">
@@ -48,7 +48,7 @@ function Portfolio() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 mt-10">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src }) => (
             <div
               key={id}

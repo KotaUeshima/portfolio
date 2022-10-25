@@ -13,8 +13,6 @@ content: [
 @tailwind components;
 @tailwind utilities;
 
-Tailwind Classes:
-
 Other Setup:
 
 npm i react-icons
@@ -22,3 +20,5 @@ npm i react-icons
 npm i typewriter-effect
 
 npm i react-scroll
+
+Netlify for deployment:

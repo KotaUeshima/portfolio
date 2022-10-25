@@ -10,7 +10,7 @@ function About() {
           </p>
         </div>
 
-        <p className="text-lg text-center text-gray-500 mt-20">
+        <p className="text-lg text-center text-gray-500 mt-16">
           I'm a senior at the Unviersity of Southern California, who has
           recently transitioned into{" "}
           <span className="font-bold text-black">

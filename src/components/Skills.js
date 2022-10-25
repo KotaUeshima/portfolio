@@ -46,16 +46,18 @@ function Skills() {
     },
   ];
   return (
-    <div name="skills" className="bg-white w-full h-screen">
+    <div name="skills" className="bg-white w-full min-h-screen">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="text-center mt-20 text-black">
           <p className="text-4xl font-extrabold tracking-widest inline border-b-4 border-pink-800">
             SKILLS
           </p>
-          <p className="py-6">These are the technologies I've worked with</p>
+          <p className="py-6 text-gray-500">
+            These are the technologies I've worked with
+          </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 my-16">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
