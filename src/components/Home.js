@@ -1,7 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsMedium } from "react-icons/bs";
-import Typewriter from "typewriter-effect";
 
 function Home() {
   const links = [
@@ -29,15 +28,10 @@ function Home() {
             Hi, I'm Kota.
           </h2>
           <div className="text-gray-500 py-7 text-center">
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .typeString(
-                    " I am a Full Stack Developer | College Student @ USC | Fanatic Football Fan"
-                  )
-                  .start();
-              }}
-            />
+            <p>
+              I am a Full Stack Developer | College Student @ USC | Fanatic
+              Football Fan
+            </p>
           </div>
 
           <div className="flex justify-center space-x-5">

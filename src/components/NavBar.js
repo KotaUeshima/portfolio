@@ -1,13 +1,20 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import Typewriter from "typewriter-effect";
 
 function NavBar() {
   const [nav, setNav] = useState(false);
   const links = ["home", "about", "portfolio", "skills", "contact"];
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 bg-white fixed">
-      <div className="text-5xl font-signature ml-4">kota</div>
+      <div className="text-3xl font-japanese ml-4">
+        <Typewriter
+          onInit={(typewriter) => {
+            typewriter.typeString("上嶋コウタ").start();
+          }}
+        />
+      </div>
 
       <ul className="hidden md:flex">
         {links.map((link) => {

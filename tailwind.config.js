@@ -5,10 +5,8 @@ module.exports = {
     extend: {},
     fontFamily: {
       signature: ["Great Vibes"],
+      japanese: ["Noto Sans JP"],
     },
-    // colors: {
-    //   matte: "#1f2937",
-    // },
   },
   plugins: [],
 };
