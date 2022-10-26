@@ -15,7 +15,7 @@ function NavBar() {
               .typeString("Kota Ueshima")
               .pause(200)
               .deleteAll()
-              .typeString("上嶋コウタ")
+              .typeString("上嶋 コウタ")
               .start();
           }}
         />
