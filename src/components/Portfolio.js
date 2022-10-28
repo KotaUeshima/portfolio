@@ -1,6 +1,7 @@
 import React from "react";
 import globify from "../assets/portfolio/globify.png";
 import college_marketplace from "../assets/portfolio/college_marketplace.png";
+import traveler from "../assets/portfolio/traveler.png";
 import coming_soon from "../assets/portfolio/coming_soon.png";
 
 function Portfolio() {
@@ -17,8 +18,8 @@ function Portfolio() {
     },
     {
       id: 3,
-      src: coming_soon,
-      codeLink: "https://github.com/KotaUeshima/College_marketplace_frontend",
+      src: traveler,
+      codeLink: "https://github.com/KotaUeshima/traveler-guide",
     },
     {
       id: 4,

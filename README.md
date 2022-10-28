@@ -1,5 +1,7 @@
 # Portfolio
 
+This is a portfolio website displaying my skills, projects, and a little about me to get to know me!
+
 Tailwind Setup:
 
 npm install -D tailwindcss postcss autoprefixer
