@@ -26,7 +26,7 @@ function NavBar() {
           return (
             <li
               key={link}
-              className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:text-pink-800 hover:scale-105 duration-250"
+              className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:text-primary hover:scale-105 duration-250"
             >
               <Link to={link} smooth duration={500}>
                 {link}
@@ -48,7 +48,7 @@ function NavBar() {
             return (
               <li
                 key={link}
-                className="cursor-pointer capitalize px-4 py-6 text-4xl hover:text-pink-800"
+                className="cursor-pointer capitalize px-4 py-6 text-4xl hover:text-primary"
               >
                 <Link
                   onClick={() => setNav(!nav)}

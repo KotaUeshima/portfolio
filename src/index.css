@@ -11,3 +11,13 @@
     font-family: "Lato", sans-serif;
   }
 }
+
+@layer components {
+  .header {
+    @apply text-4xl font-extrabold tracking-widest inline;
+  }
+
+  .subheader {
+    @apply py-6 text-lg tracking-wider;
+  }
+}

@@ -8,9 +8,7 @@ function Contact() {
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8 text-center">
-          <p className="text-4xl font-extrabold tracking-widest inline border-b-4 border-pink-800">
-            CONTACT
-          </p>
+          <p className="header">CONTACT</p>
           <p className="py-6 text-gray-500">
             Submit the form below to get in touch with me
           </p>
@@ -41,7 +39,7 @@ function Contact() {
               className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
             ></textarea>
 
-            <button className="text-white bg-pink-800 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-105 duration-300">
+            <button className="text-white bg-primary px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-105 duration-300">
               Let's talk
             </button>
           </form>

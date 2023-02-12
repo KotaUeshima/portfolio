@@ -40,7 +40,7 @@ function Home() {
                 <a
                   key={id}
                   href={link}
-                  className="text-pink-800 hover:scale-110 duration-300"
+                  className="text-primary hover:scale-110 duration-300"
                   target="_blank"
                   rel="noreferrer"
                 >

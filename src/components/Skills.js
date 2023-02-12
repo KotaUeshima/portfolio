@@ -1,13 +1,13 @@
 import React from "react";
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import reactImage from "../assets/react.png";
-import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
-import rails from "../assets/pngwing.com.png";
-import java from "../assets/java.png";
-import python from "../assets/python.png";
+import html from "../assets/skills/html.png";
+import css from "../assets/skills/css.png";
+import javascript from "../assets/skills/javascript.png";
+import reactImage from "../assets/skills/react.png";
+import github from "../assets/skills/github.png";
+import tailwind from "../assets/skills/tailwind.png";
+import rails from "../assets/skills/pngwing.com.png";
+import java from "../assets/skills/java.png";
+import python from "../assets/skills/python.png";
 
 function Skills() {
   const techs = [
@@ -71,9 +71,7 @@ function Skills() {
     <div name="skills" className="bg-white w-full min-h-screen">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="text-center mt-20 text-black">
-          <p className="text-4xl font-extrabold tracking-widest inline border-b-4 border-pink-800">
-            SKILLS
-          </p>
+          <p className="header">SKILLS</p>
           <p className="py-6 text-gray-500">
             These are the technologies I've worked with
           </p>

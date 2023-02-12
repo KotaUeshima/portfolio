@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#01aea8",
+      },
+    },
     fontFamily: {
       signature: ["Great Vibes"],
       japanese: ["Noto Sans JP"],
