@@ -5,9 +5,12 @@ import javascript from "../assets/skills/javascript.png";
 import reactImage from "../assets/skills/react.png";
 import github from "../assets/skills/github.png";
 import tailwind from "../assets/skills/tailwind.png";
-import rails from "../assets/skills/pngwing.com.png";
+import rails from "../assets/skills/rails.png";
 import java from "../assets/skills/java.png";
 import python from "../assets/skills/python.png";
+import swift from "../assets/skills/swift.png";
+import flask from "../assets/skills/flask.png";
+import cpp from "../assets/skills/c++.png";
 
 function Skills() {
   const techs = [
@@ -66,18 +69,35 @@ function Skills() {
       title: "Python",
       style: "shadow-yellow-400",
     },
+    {
+      id: 10,
+      src: swift,
+      title: "Swift",
+      style: "shadow-orange-400",
+    },
+    {
+      id: 11,
+      src: flask,
+      title: "Flask",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 12,
+      src: cpp,
+      title: "C++",
+      style: "shadow-blue-400",
+    },
   ];
   return (
     <div name="skills" className="bg-white w-full min-h-screen">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="text-center mt-20 text-black">
           <p className="header">SKILLS</p>
-          <p className="py-6 text-gray-500">
-            These are the technologies I've worked with
+          <p className="subheader">
+            These are some of the technologies I've worked with
           </p>
         </div>
-
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 my-16">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0 my-10">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}

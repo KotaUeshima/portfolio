@@ -27,7 +27,7 @@ function Home() {
           <h2 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-center text-black">
             Hi, I'm Kota.
           </h2>
-          <div className="text-gray-500 py-7 text-center">
+          <div className="subheader text-center">
             <p>
               I am a Full Stack Developer | College Student @ USC | Fanatic
               Football Fan

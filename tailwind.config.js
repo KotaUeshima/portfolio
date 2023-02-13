@@ -8,7 +8,6 @@ module.exports = {
       },
     },
     fontFamily: {
-      signature: ["Great Vibes"],
       japanese: ["Noto Sans JP"],
     },
   },

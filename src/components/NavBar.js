@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 
 function NavBar() {
   const [nav, setNav] = useState(false);
-  const links = ["home", "about", "portfolio", "skills", "contact"];
+  const links = ["home", "portfolio", "skills", "contact"];
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 bg-white fixed">
       <div className="text-3xl font-japanese ml-4">
