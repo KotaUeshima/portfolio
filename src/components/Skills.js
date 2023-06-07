@@ -35,7 +35,7 @@ function Skills() {
     {
       id: 4,
       src: typescript,
-      title: 'Typescript',
+      title: 'TypeScript',
       style: 'shadow-blue-400',
     },
     {
