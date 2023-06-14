@@ -17,6 +17,7 @@ function Portfolio() {
       frontendLink: 'https://github.com/KotaUeshima/globify-frontend2.0',
       backendLink: 'https://github.com/KotaUeshima/globify-backend',
       demoLink: 'https://globify.vercel.app/',
+      feature: true,
       disabled: false,
     },
     {
@@ -27,6 +28,7 @@ function Portfolio() {
       frontendLink: 'https://github.com/KotaUeshima/DroneCo',
       backendLink: 'https://github.com/KotaUeshima/DroneCo',
       demoLink: 'https://drone-co.vercel.app/',
+      feature: false,
       disabled: false,
     },
     {
@@ -37,6 +39,7 @@ function Portfolio() {
       frontendLink: 'https://github.com/KotaUeshima/amazon-scraper',
       backendLink: 'https://github.com/KotaUeshima/amazon-scraper',
       demoLink: 'https://brightdata-amazon-scraper-lovat.vercel.app/',
+      feature: false,
       disabled: false,
     },
     {
@@ -47,8 +50,8 @@ function Portfolio() {
       frontendLink: 'https://github.com/KotaUeshima/globify-frontend',
       backendLink: 'https://github.com/KotaUeshima/globify-backend',
       demoLink: 'https://stately-bombolone-0812fa.netlify.app/',
+      feature: false,
       disabled: false,
-      demoButtonColor: 'text-pink-800',
     },
     {
       id: 5,
@@ -58,6 +61,7 @@ function Portfolio() {
       frontendLink: 'https://github.com/KotaUeshima/vapo',
       backendLink: 'https://github.com/KotaUeshima/vapo',
       demoLink: '',
+      feature: false,
       disabled: true,
     },
     {
@@ -70,6 +74,7 @@ function Portfolio() {
       backendLink:
         'https://github.com/KotaUeshima/College_Marketplace_App',
       demoLink: 'https://clever-kulfi-41745d.netlify.app/',
+      feature: false,
       disabled: true,
     },
   ]
@@ -97,6 +102,7 @@ function Portfolio() {
               frontendLink,
               backendLink,
               demoLink,
+              feature,
               disabled,
             }) => (
               <Project
@@ -107,6 +113,7 @@ function Portfolio() {
                 frontendLink={frontendLink}
                 backendLink={backendLink}
                 demoLink={demoLink}
+                feature={feature}
                 disabled={disabled}
               />
             )

@@ -7,15 +7,16 @@ function Project({
   frontendLink,
   backendLink,
   demoLink,
+  feature,
   disabled,
 }) {
   return (
-    <div className='z-0 bg-white shadow-md shadow-gray-600 rounded-md hover:scale-105 duration-200 '>
-      <img
-        className='border-b-2 rounded-t-md border-primary'
-        src={src}
-        alt=''
-      />
+    <div
+      className={`${
+        feature ? 'ring-8 ring-yellow-400 ' : ''
+      }z-0 bg-white shadow-md shadow-gray-600 rounded-md hover:scale-105 duration-200`}
+    >
+      <img className='rounded-t-md' src={src} alt='' />
       <p className='text-center pt-2 text-xl font-bold'>{title}</p>
       <p className='text-center text-gray-500 text-sm'>{technologies}</p>
       <div className='flex flex-row py-6'>
